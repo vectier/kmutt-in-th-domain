@@ -1,0 +1,17 @@
+.btn {
+  @apply px-4 py-2 rounded-md btn-animate;
+}
+
+.btn-animate {
+  @apply ease-out duration-200;
+}
+
+.btn-primary {
+  @apply btn;
+  @apply border border-orange-600 bg-orange-600 hover:bg-white text-white hover:text-orange-600;
+}
+
+.btn-secondary {
+  @apply btn;
+  @apply border border-gray-300 hover:border-orange-600;
+}

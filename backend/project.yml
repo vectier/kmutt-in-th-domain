@@ -1,0 +1,11 @@
+packages:
+  - name: cloudflare-bridge
+    environment:
+      CLOUDFLARE_ZONE_ID: "${CLOUDFLARE_ZONE_ID}"
+      CLOUDFLARE_AUTH_KEY: "${CLOUDFLARE_AUTH_KEY}"
+      CLOUDFLARE_AUTH_EMAIL: "${CLOUDFLARE_AUTH_EMAIL}"
+    actions:
+      - name: addSubdomain
+        runtime: 'go:1.17'
+      - name: getSubdomain
+        runtime: 'go:1.17'

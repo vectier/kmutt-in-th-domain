@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "./button.css";
+
+@import "tailwindcss/utilities";
+
+::selection {
+  background: #ea5a0c;
+  color: white;
+}
